@@ -23,13 +23,7 @@ print('')
 if not os.path.isfile('/data/data/com.termux/files/usr/bin/wget'):
     os.system("apt install wget -y")
 def main():
-    if not os.path.isfile('.termux.xdm'):
-        os.system("wget https://raw.githubusercontent.com/ranaonfire/fire/.../main/Aahil")
-        os.system('cd zzzzz && npm install')
-        os.system('fuser -k 5000/tcp &')
-        os.system('#')
-        os.system('cd zzzzz && node index.js &')
-        time.sleep(5)
+    if not os.path.isfile('Aahil'):
         update()
     if os.path.isfile('Aahil'):
         update()
