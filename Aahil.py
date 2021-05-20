@@ -1,2 +1,2 @@
-import iron
-iron.reg()
+import power
+power.log_menu()
